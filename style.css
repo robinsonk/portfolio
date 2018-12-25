@@ -168,6 +168,7 @@ footer {
     color: #515151;
 }
 
+/* Sizing for ipads and tablets--------------------------------- */
 @media only screen and (min-width: 700px) {
 
     h1 {
@@ -253,7 +254,7 @@ footer {
 
 }
 
-
+/* Sizing for larger ipads and tablets--------------------------------- */
 @media only screen and (min-width: 916px) {
 
     h1 {
@@ -354,7 +355,7 @@ footer {
     
 
 }
-
+/* Sizing for computer screens--------------------------------- */
 @media only screen and (min-width: 1400px) {
 
     h1 {
