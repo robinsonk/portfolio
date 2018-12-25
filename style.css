@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #515151;
+}
+
+.description, h1, ul, .piece-title, .piece-links, .portfolio-description {
+    font-family: 'Staatliches', cursive;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    margin-top: 60px;
+}
+
+.description {
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.intro {
+    font-weight: normal;
+}
+
+.bio {
+    margin-top: 30px;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: -40px;
+}
+
+.intro, p, .piece-description, .my-work {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 80px;
+}
+
+.portfolio-header {
+    margin-top: -35px;
+}
+
+.my-work {
+    font-weight: normal;
+}
+
+.portfolio-description {
+    font-weight: normal;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.featured-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.piece-info {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: -15px;
+    font-weight: normal;
+}
+
+.piece-description {
+    margin-top: -8px;
+}
+
+a {
+    color: #515151;
+}
+
+.language-logos {
+    height: 30px;
+    margin-top: 0px;
+}
+
+.portfolio {
+    margin-top: 70px;
+}
+
+.pieces {
+    margin-bottom: 80px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #515151;
+}
+
+@media only screen and (min-width: 740px) {
+
+    h1 {
+        font-size: 25px;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    body {
+        margin-left: 100px;
+        margin-right: 200px;
+        color: #515151;
+    }
+
+    #column-1 {
+        float: left;
+    }
+    
+    .menu {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-left: -40px;
+    }
+
+    .bio {
+        margin-top: 0px;
+    }
+
+    .hero {
+        margin-top: 5px;
+    }
+
+    .hero, .bio {
+        margin-left: 90px;
+        width: 400px;
+    }
+
+    hr {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #column-2 {
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-header {
+        margin-top: -50px;
+    }
+
+    .my-work {
+        margin-left: 90px;
+        font-weight: normal;
+    }
+
+    .portfolio-description {
+        font-weight: normal;
+        margin-left: 90px;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+
+    .portfolio {
+        margin-top: 10px;
+        margin-left: 90px;
+        
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: flex-start;
+    }
+
+    .pieces {
+        width: 400px;
+    }
+
+    .portfolio > img:nth-child(0) {
+        margin-top: 50px;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    h1 {
+        font-size: 25px;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    body {
+        margin-left: 200px;
+        margin-right: 200px;
+        color: #515151;
+    }
+
+    #column-1 {
+        float: left;
+    }
+    
+    .menu {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-left: -40px;
+    }
+
+    .hero {
+        margin-top: 5px;
+    }
+
+    .bio {
+        margin-top: 0px;
+    }
+
+    .hero, .bio {
+        margin-left: 90px;
+        width: 800px;
+    }
+
+    hr {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #column-2 {
+        margin-left: 110px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-work {
+        margin-left: 90px;
+        font-weight: normal;
+    }
+
+    .portfolio-description {
+        font-weight: normal;
+        margin-left: 90px;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+
+    .portfolio {
+        margin-top: 10px;
+        margin-left: 90px;
+        
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: flex-start;
+    }
+
+    .pieces {
+        width: 400px;
+        margin-right: 40px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: #515151;
+    }
+
+    
+    
+
+}
+
+
+
