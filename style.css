@@ -8,6 +8,21 @@ body {
     color: #515151;
 }
 
+a {
+    font-style: none;
+    text-decoration: none;
+    padding: 3px;
+}
+
+li a:hover {
+    background-color: #4DB7AB;
+    color: white;
+}
+
+.piece-info a:hover {
+    color: #4DB7AB;
+}
+
 .description, h1, ul, .piece-title, .piece-links, .portfolio-description {
     font-family: 'Staatliches', cursive;
 }
@@ -18,8 +33,16 @@ h1 {
     font-weight: normal;
 }
 
+.divider {
+    color: #4DB7AB;
+}
+
 ul {
     list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 .hero {
@@ -34,6 +57,7 @@ ul {
 
 .intro {
     font-weight: normal;
+    color: #4DB7AB;
 }
 
 .bio {
@@ -54,6 +78,10 @@ ul {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    line-height: 24px;
+}
+
 hr {
     margin: 80px;
 }
@@ -64,6 +92,7 @@ hr {
 
 .my-work {
     font-weight: normal;
+    color: #4DB7AB;
 }
 
 .portfolio-description {
@@ -96,7 +125,7 @@ a {
 
 .language-logos {
     height: 30px;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
 .portfolio {
