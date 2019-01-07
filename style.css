@@ -10,6 +10,8 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     color: #515151;
+    background-image: radial-gradient(73% 147%, rgb(255, 255, 255) 59%, rgba(121, 246, 255, 0.712) 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
 }
 
 a {
@@ -126,6 +128,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    height: 250px;
 }
 
 .piece-info {
@@ -420,6 +423,7 @@ footer {
         margin-bottom: 100px;
         width: 10%;
         height: auto;
+        background-color: transparent;
     }
 
     .scroll-text {
@@ -433,6 +437,7 @@ footer {
     .arrow {
         width: 50%;
         height: auto;
+        background-color: transparent;
     }
 
     #column-2 {
@@ -482,7 +487,7 @@ footer {
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: white;
+        background-color: transparent;
         color: #515151;
     }
 
